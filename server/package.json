@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon ./app.js 9000",
-    "server:prod": "NODE_ENV=production nodemon ./app.js 9000",
+    "server": "nodemon ./app.js",
+    "server:prod": "NODE_ENV=production nodemon ./app.js",
     "db:reset": "node ./db/reset.js"
   },
   "keywords": [],
